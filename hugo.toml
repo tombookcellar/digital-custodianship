@@ -1,7 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Digital Custodianship'
-theme = ''
 ignoreFiles = ['desktop\.ini$']
 
 [markup.tableOfContents]
