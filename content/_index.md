@@ -79,7 +79,7 @@ Digital Custodianship delivers six outcomes for an asset owner:
 
 - **Continuity of knowledge** — the tacit, career-long familiarity a municipal engineer once held, held instead in data that outlasts any individual's tenure.
 - **Timely monitoring** — inspections and monitoring at a cadence appropriate to the risk things are changing.
-- **Proactive interventions** — acting on risk before it becomes visible, not reacting once has occured.
+- **Proactive interventions** — acting on risk before it becomes visible, not reacting once it has occured.
 - **Portfolio prioritisation** — knowing where, across hundreds or thousands of assets, attention and resource are actually needed most.
 - **Stakeholder stewardship** — being able to explain risk in a way that resonates with the people who control funding and decisions.
 - **Long-term sustainability** — infrastructure that keeps performing 5, 10, 15 years out, not just today.
