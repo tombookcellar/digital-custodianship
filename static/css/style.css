@@ -355,6 +355,7 @@ a {
 }
 
 .cta-form__hint {
+  font-style: italic;
   font-size: 0.8rem;
   color: var(--grey-500);
 }
