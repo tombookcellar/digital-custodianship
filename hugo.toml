@@ -1,0 +1,22 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Digital Custodianship'
+theme = ''
+ignoreFiles = ['desktop\.ini$']
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 2
+
+[params]
+  description = "A public vision for the custodianship of digital infrastructure and assets."
+  # Replace with your own Formspree form endpoint: https://formspree.io/forms/<id>
+  formspreeEndpoint = "https://formspree.io/f/myeygndn"
+
+  [[params.pdfs]]
+    title = "The Digital Custodianship Paper"
+    file = "/pdfs/digital-custodianship.pdf"
+
+  [[params.pdfs]]
+    title = "The Asset Custodianship Paper"
+    file = "/pdfs/asset-custodianship.pdf"

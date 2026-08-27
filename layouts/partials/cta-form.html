@@ -1,0 +1,45 @@
+<h2 class="cta__heading">I share this vision</h2>
+
+<form class="cta-form" action="{{ .Site.Params.formspreeEndpoint }}" method="POST">
+  <label class="cta-form__field">
+    <span>Name <em>(required)</em></span>
+    <input type="text" name="name" required>
+  </label>
+
+  <label class="cta-form__field">
+    <span>Email <em>(required)</em></span>
+    <input type="email" name="email" required>
+  </label>
+
+  <label class="cta-form__field">
+    <span>Role <em>(required)</em></span>
+    <input type="text" name="role" required>
+  </label>
+
+  <label class="cta-form__field">
+    <span>Organisation <em>(optional)</em></span>
+    <input type="text" name="organisation">
+  </label>
+
+  <label class="cta-form__checkbox">
+    <input type="checkbox" name="shares_vision" value="yes" required>
+    <span>I share this vision</span>
+  </label>
+
+  <label class="cta-form__field">
+    <span>Comment <em>(optional)</em></span>
+    <textarea name="comment" rows="4"></textarea>
+  </label>
+
+  <label class="cta-form__field">
+    <span>Statement of support <em>(optional)</em></span>
+    <textarea name="statement_of_support" rows="4"></textarea>
+  </label>
+
+  <label class="cta-form__checkbox">
+    <input type="checkbox" name="join_mailing_list" value="yes">
+    <span>Join the mailing list</span>
+  </label>
+
+  <button type="submit" class="btn btn--primary cta-form__submit">Add my support</button>
+</form>

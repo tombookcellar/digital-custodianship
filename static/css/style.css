@@ -1,0 +1,462 @@
+:root {
+  --orange: #F05A28;
+  --orange-dark: #C8431A;
+  --orange-light: #F9E8E2;
+  --black: #0F0F0F;
+  --grey-900: #1A1A1A;
+  --grey-700: #4A4A4A;
+  --grey-500: #7A7A7A;
+  --grey-200: #E8E8E8;
+  --grey-100: #F5F5F3;
+  --white: #FFFFFF;
+
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Lato', sans-serif;
+
+  --max-width: 1200px;
+  --gutter: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--black);
+  font-family: var(--font-body);
+  font-weight: 350;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+/* Header */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--white);
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.site-header__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+}
+
+.logo-name {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.01em;
+  color: var(--black);
+}
+
+/* Draft banner */
+
+.draft-banner {
+  background: var(--orange-light);
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.draft-banner__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0.7rem var(--gutter);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--orange-dark);
+  text-align: center;
+}
+
+/* Layout */
+
+.layout {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4rem var(--gutter) 6rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 4rem;
+  align-items: start;
+}
+
+.vision {
+  min-width: 0;
+}
+
+.vision h1 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  font-size: clamp(2.2rem, 5vw, 3rem);
+  margin: 0 0 0.5rem;
+  color: var(--black);
+}
+
+.vision > h1:first-child + p {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--grey-500);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  margin: 0 0 2rem;
+  max-width: none;
+}
+
+.vision__toc {
+  margin: 0 0 2.5rem;
+  padding: 0.6rem 0;
+  border-top: 1px solid var(--grey-200);
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.vision__toc-label {
+  margin: 0 0 0.3rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--grey-500);
+}
+
+.vision__toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.85rem;
+  max-width: none;
+}
+
+.vision__toc li {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.vision__toc a {
+  color: var(--grey-700);
+  text-decoration: none;
+}
+
+.vision__toc a:hover {
+  color: var(--orange);
+}
+
+.vision h2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  margin: 3rem 0 1.25rem;
+}
+
+.vision > h2:first-child {
+  margin-top: 0;
+}
+
+.vision h3 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  margin: 2.25rem 0 0.75rem;
+}
+
+.vision h4 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 1.75rem 0 0.75rem;
+}
+
+.vision p {
+  margin: 0 0 1.25rem;
+  color: var(--grey-900);
+  font-size: 1.05rem;
+  max-width: 62ch;
+}
+
+.vision img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid var(--grey-200);
+  margin: 0.5rem 0 2rem;
+}
+
+.vision strong {
+  font-weight: 700;
+  color: var(--black);
+}
+
+.vision a {
+  color: var(--orange);
+  text-decoration: underline;
+  text-decoration-color: var(--orange-light);
+  text-underline-offset: 0.15em;
+}
+
+.vision a:hover {
+  color: var(--orange-dark);
+  text-decoration-color: var(--orange);
+}
+
+.vision ul,
+.vision ol {
+  margin: 0 0 1.25rem;
+  padding-left: 1.75rem;
+  max-width: 62ch;
+  color: var(--grey-900);
+  font-size: 1.05rem;
+}
+
+.vision li {
+  margin-bottom: 0.35rem;
+}
+
+.vision li > p {
+  margin: 0;
+}
+
+.vision li > p + p {
+  margin: 0.2rem 0 0 1.75rem;
+}
+
+.vision blockquote {
+  margin: 0 0 1.5rem;
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  border-left: 3px solid var(--orange);
+  color: var(--black);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1.2rem;
+  max-width: 58ch;
+}
+
+.vision blockquote p {
+  color: inherit;
+  margin: 0;
+}
+
+.vision__downloads {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--grey-200);
+}
+
+.vision__downloads h3 {
+  margin-top: 0;
+  font-size: 1.05rem;
+}
+
+.vision__downloads ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vision__downloads li {
+  margin-bottom: 0.5rem;
+}
+
+.vision__downloads a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--orange-light);
+}
+
+.vision__downloads a:hover {
+  border-bottom-color: var(--orange);
+}
+
+/* CTA */
+
+.cta__sticky {
+  position: sticky;
+  top: 96px;
+  background: var(--grey-100);
+  border: 1px solid var(--grey-200);
+  border-radius: 6px;
+  padding: 1.75rem;
+}
+
+.cta__heading {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-size: 1.2rem;
+  margin: 0 0 1.25rem;
+  color: var(--black);
+}
+
+.cta-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cta-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--grey-700);
+}
+
+.cta-form__field em {
+  font-style: normal;
+  color: var(--grey-500);
+}
+
+.cta-form__field input[type="text"],
+.cta-form__field input[type="email"],
+.cta-form__field textarea {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--grey-200);
+  border-radius: 6px;
+  background: var(--white);
+  color: var(--black);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.cta-form__field textarea {
+  resize: vertical;
+  min-height: 5rem;
+}
+
+.cta-form__field input[type="text"]:focus,
+.cta-form__field input[type="email"]:focus,
+.cta-form__field textarea:focus {
+  outline: none;
+  border-color: var(--orange);
+  box-shadow: 0 0 0 3px var(--orange-light);
+}
+
+.cta-form__checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: var(--black);
+}
+
+.cta-form__checkbox input {
+  margin-top: 0.2rem;
+  accent-color: var(--orange);
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  border: none;
+  transition: background 0.2s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn--primary {
+  background: var(--orange);
+  color: var(--white);
+}
+
+.btn--primary:hover {
+  background: var(--orange-dark);
+}
+
+.cta-form__submit {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid var(--grey-200);
+  background: var(--grey-100);
+}
+
+.site-footer__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.75rem var(--gutter);
+}
+
+.site-footer p {
+  margin: 0 0 0.4rem;
+  color: var(--grey-700);
+  font-size: 0.85rem;
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer a {
+  color: var(--grey-700);
+  text-decoration: underline;
+  text-decoration-color: var(--grey-200);
+}
+
+.site-footer a:hover {
+  color: var(--orange);
+  text-decoration-color: var(--orange);
+}
+
+@media (max-width: 860px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    padding: 2.5rem var(--gutter) 3.5rem;
+  }
+
+  .cta__sticky {
+    position: static;
+  }
+
+  .vision ul,
+  .vision ol {
+    padding-left: 1.1rem;
+  }
+
+  .vision li > p + p {
+    margin-left: 1.1rem;
+  }
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="512x512" href="{{ "icon-512.png" | relURL }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="site-logo">
+        <span class="logo-name">{{ .Site.Title }} Vision</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="draft-banner">
+    <div class="draft-banner__inner">
+      This is a draft, published for consultation and comment.
+    </div>
+  </div>
+
+  <main class="layout">
+    <section class="vision">
+      {{ $content := .Content | string }}
+      {{ $parts := split $content "<h2" }}
+      {{ $toc := .TableOfContents | string }}
+      {{ $tocBlock := "" }}
+      {{ if gt (len $toc) 0 }}
+        {{ $tocBlock = printf "<nav class=\"vision__toc\" aria-label=\"Table of contents\"><p class=\"vision__toc-label\">Contents</p>%s</nav>" $toc }}
+      {{ end }}
+      {{ if gt (len $parts) 1 }}
+        {{ $before := index $parts 0 }}
+        {{ $after := delimit (after 1 $parts) "<h2" }}
+        {{ printf "%s%s<h2%s" $before $tocBlock $after | safeHTML }}
+      {{ else }}
+        {{ printf "%s%s" $content $tocBlock | safeHTML }}
+      {{ end }}
+
+      {{ if .Site.Params.pdfs }}
+      <div class="vision__downloads">
+        <h3>Read further</h3>
+        <ul>
+          {{ range .Site.Params.pdfs }}
+          <li><a href="{{ .file | relURL }}">{{ .title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+    </section>
+
+    <aside class="cta">
+      <div class="cta__sticky">
+        {{ partial "cta-form.html" . }}
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <p>&copy; {{ now.Year }} InfraSpark. A shared vision in progress.</p>
+      <p>This work is licensed under a <a href="https://creativecommons.org/licenses/by-nd/4.0/" rel="license">Creative Commons Attribution-NoDerivatives 4.0 International License</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
