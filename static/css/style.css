@@ -301,6 +301,8 @@ a {
 .cta__sticky {
   position: sticky;
   top: 96px;
+  max-height: calc(100vh - 96px - 2rem);
+  overflow-y: auto;
   background: var(--grey-100);
   border: 1px solid var(--grey-200);
   border-radius: 6px;
@@ -455,6 +457,8 @@ a {
 
   .cta__sticky {
     position: static;
+    max-height: none;
+    overflow-y: visible;
   }
 
   .vision ul,
