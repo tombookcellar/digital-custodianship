@@ -8,7 +8,7 @@ ignoreFiles = ['desktop\.ini$']
   endLevel = 2
 
 [params]
-  description = "A public vision for the custodianship of digital infrastructure and assets."
+  description = "A vision for how digital technologies will reduce asset risk and extend the life of infrastructure."
   # Replace with your own Formspree form endpoint: https://formspree.io/forms/<id>
   formspreeEndpoint = "https://formspree.io/f/myeygndn"
 
