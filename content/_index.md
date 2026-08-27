@@ -13,11 +13,11 @@ The standards and approaches we use to manage infrastructure were mostly defined
 
 Recent advances in technology means that previous limitations in our ability to capture, store and process data no longer apply, but in a world of drones, smartphones, remote sensing, quantum technologies and Aritificial Intelligence the sector has no common north star to work towards. 
 
-The Digital Custodianship Vision aims to align stakeholders so that we can articulate a shared end state for the role technology should play in managing infrastructure, and to accelerate innovation without constraining how it gets implemented and governed. 
+The Digital Custodianship Vision aims to align stakeholders towards a shared end-state for the role technology should play in managing infrastructure, and to accelerate innovation without constraining how it gets implemented and governed. 
 
-We are inviting comment on this vision in the hope that others will apply these principals to their own initiatives to catalyse the adoption of technologies that reduce cost, increase resources or improve prioritisation to help our infrastructure last longer.
+We are inviting comment on this vision in the hope that others will apply these principals to their own initiatives to catalyse the adoption of technologies that help our infrastructure last longer.
 
-Whether your role is in infrastructurement management or innovation, please give us feedback on the definitions,  principles and next steps set out below, and sign up to add your name in support of the Vision. 
+Whether your role is in infrastructurement management or innovation, please give us feedback on the definitions, principles and next steps set out below, and sign up to add your name in support of the Vision. 
 
 ## Addressing the condition crisis
 
@@ -29,9 +29,9 @@ Many owners of ageing infrastructure are in a situation where asset condition ha
 
 At the same time, we have seen a shift in how assets are managed; from career-long positions as municipal engineers responsible for a fixed number of assets which they knew intimately, to increased reliance on external engineering consultancies. Whilst consultancies bring a lot of value in terms of expertise, best-practice and innovation, we have lost that long-term personal stewardship for our assets.
 
-We believe that digital technologies present an opportunity to reclaim that long-term perspective and sense of stewardship, whilst not losing access to the benefits that comes from organisations that directly share lessons learned across owners and portfolios.
+We believe that digital technologies present an opportunity to reclaim that long-term perspective and sense of stewardship, whilst retaining the benefits that comes from organisations that directly share lessons learned across owners and portfolios.
 
-We have coined the term *Digital Custodianship* to articulate the journey we expect the industry to go on from periodic qualitative condition scores supported by unstructured narratives and photos, to an integrated, long-term view of risk (consequence and likelihood) from deterioration and changes in stakeholder needs.
+We have coined the term *Digital Custodianship* to articulate the journey we expect the industry to go on from periodic qualitative condition scores supported by unstructured narratives and photos, to an integrated, long-term view of risk (consequence and likelihood) caused by deterioration and changes in stakeholder needs.
 
 ***Digital Custodianship*** is the proportionate implementation of technologies to extend the useful life of assets by
 
@@ -47,7 +47,7 @@ Our vision for Digital Custodianship is:
 
 > ***A world where asset owners can fully articulate their risk position and they are empowered to act on it.***
 
-Not condition scores. Not compliance checklists. A clear, quantified account of likelihood and consequence, held with enough confidence to justify a decision, communicated in language that lands with the people who control the budget.
+Through Digital Custodianship, asset owners will develop a clear, quantified account of likelihood and consequence, held with enough confidence to justify a decision, communicated in language that lands with the people who control the budget.
 
 In that world:
 
@@ -65,7 +65,7 @@ In that world:
 
 - **The Condition Crisis is escapable.**
 
-  The hardest part of crisis mode is that everything looks urgent and nothing can be prioritised with confidence. Quantified risk breaks that deadlock — and gives custodians the evidence to make the case for the additional resource that's the only real way out.
+  The hardest part of crisis mode is that everything looks urgent and nothing can be prioritised with confidence. Quantified risk breaks that deadlock and gives custodians the evidence to make the case for the additional resource that's the only real way out.
 
 - **Success is observable.**
 
@@ -78,8 +78,8 @@ In that world:
 Digital Custodianship delivers six outcomes for an asset owner:
 
 - **Continuity of knowledge** — the tacit, career-long familiarity a municipal engineer once held, held instead in data that outlasts any individual's tenure.
-- **Timely monitoring** — knowing what's changing, not just what the last inspection found.
-- **Proactive interventions** — acting on risk before it becomes visible, not reacting once it is.
+- **Timely monitoring** — inspections and monitoring at a cadence appropriate to the risk things are changing.
+- **Proactive interventions** — acting on risk before it becomes visible, not reacting once has occured.
 - **Portfolio prioritisation** — knowing where, across hundreds or thousands of assets, attention and resource are actually needed most.
 - **Stakeholder stewardship** — being able to explain risk in a way that resonates with the people who control funding and decisions.
 - **Long-term sustainability** — infrastructure that keeps performing 5, 10, 15 years out, not just today.
@@ -93,9 +93,7 @@ None of that comes from a single technology. It comes from six capabilities, app
 - computational diagnosis and probabilistic prediction,
 - and machine learning that surfaces patterns and shares lessons across a portfolio.
 
-
-
-#### The paradox this has to solve
+### The paradox this has to solve
 
 Good custodianship, done well, produces an absence: no closures, no incidents, no headlines. That absence is very hard to fund. Nobody feels the disaster that didn't happen. This is the crying-wolf problem at the heart of infrastructure investment: the better the job, the harder the case for the next budget cycle.
 
