@@ -17,7 +17,7 @@ The Digital Custodianship Vision aims to align stakeholders so that we can artic
 
 We are inviting comment on this vision in the hope that others will apply these principals to their own initiatives to catalyse the adoption of technologies that reduce cost, increase resources or improve prioritisation to help our infrastructure last longer.
 
-Whether your role is in infrastructurement management or innovation, please give us feedback on the definitions and principles set out below, and sign up to add your name in support of the Vision. 
+Whether your role is in infrastructurement management or innovation, please give us feedback on the definitions,  principles and next steps set out below, and sign up to add your name in support of the Vision. 
 
 ## Addressing the condition crisis
 
