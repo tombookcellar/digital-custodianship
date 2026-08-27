@@ -5,6 +5,20 @@ title: "Digital Custodianship Vision"
 # A vision for Digital Custodianship
 v0.1 - For comment
 
+## Context and background
+
+Our infrastructure is ageing. The gap between asset condition and the funding needed to keep our infrastructure in service is growing year on year. 
+
+The standards and approaches we use to manage infrastructure were mostly defined at the advent of database systems in the latter decades of the 20th century, and we've got stuck with technologies and approaches that are 20 or more years old.
+
+Recent advances in technology means that previous limitations in our ability to capture, store and process data no longer apply, but in a world of drones, smartphones, remote sensing, quantum technologies and Aritificial Intelligence the sector has no common north star to work towards. 
+
+The Digital Custodianship Vision aims to align stakeholders so that we can articulate a shared end state for the role technology should play in managing infrastructure, and to accelerate innovation without constraining how it gets implemented and governed. 
+
+We are inviting comment on this vision in the hope that others will apply these principals to their own initiatives to catalyse the adoption of technologies that reduce cost, increase resources or improve prioritisation to help our infrastructure last longer.
+
+Whether your role is in infrastructurement management or innovation, please give us feedback on the definitions and principles set out below, and sign up to add your name in support of the Vision. 
+
 ## Addressing the condition crisis
 
 In order to address the challenges of managing ageing infrastructure, we need a fundamental shift in how we think about data and planning, by moving away from monitoring condition to proactively managing risk.
