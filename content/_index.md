@@ -9,7 +9,7 @@ v0.1 - For comment
 
 Our infrastructure is ageing. The gap between asset condition and the funding needed to keep our infrastructure in service is growing year on year. 
 
-The standards and approaches we use to manage infrastructure were mostly defined at the advent of database systems in the latter decades of the 20th century, and we've got stuck with technologies and approaches that are 20 or more years old.
+The standards and approaches we use to manage infrastructure were mostly defined at the advent of database systems in the latter decades of the 20th century, and we've got stuck with technologies and approaches that are twenty or more years old.
 
 Recent advances in technology means that previous limitations in our ability to capture, store and process data no longer apply, but in a world of drones, smartphones, remote sensing, quantum technologies and Aritificial Intelligence the sector has no common north star to work towards. 
 
@@ -79,7 +79,7 @@ Digital Custodianship delivers six outcomes for an asset owner:
 
 - **Continuity of knowledge** — the tacit, career-long familiarity a municipal engineer once held, held instead in data that outlasts any individual's tenure.
 - **Timely monitoring** — inspections and monitoring at a cadence appropriate to the risk things are changing.
-- **Proactive interventions** — acting on risk before it becomes visible, not reacting once it has occured.
+- **Proactive interventions** — acting on risk before it becomes visible, not reacting once it has occurred.
 - **Portfolio prioritisation** — knowing where, across hundreds or thousands of assets, attention and resource are actually needed most.
 - **Stakeholder stewardship** — being able to explain risk in a way that resonates with the people who control funding and decisions.
 - **Long-term sustainability** — infrastructure that keeps performing 5, 10, 15 years out, not just today.
