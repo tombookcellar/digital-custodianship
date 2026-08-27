@@ -247,7 +247,7 @@ a {
 }
 
 .vision li > p + p {
-  margin: 0.2rem 0 0 1.75rem;
+  margin: 0;
 }
 
 .vision blockquote {
