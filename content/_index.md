@@ -13,11 +13,11 @@ The standards and approaches we use to manage infrastructure were mostly defined
 
 Recent advances in technology means that previous limitations in our ability to capture, store and process data no longer apply, but in a world of drones, smartphones, remote sensing, quantum technologies and artificial intelligence the sector has no common north star to work towards. 
 
-The Digital Custodianship Vision aims to align stakeholders towards a shared end-state for the role technology should play in managing infrastructure, and to accelerate innovation without constraining how it gets implemented and governed. 
+The Digital Custodianship Vision aims to align stakeholders towards a shared end-state for technology in managing infrastructure, and to accelerate innovation without constraining how it gets implemented and governed. 
 
 We are inviting comment on this vision in the hope that others will apply these principals to their own initiatives to catalyse the adoption of technologies that help our infrastructure last longer.
 
-Whether your role is in infrastructurement management or innovation, please give us feedback on the definitions, principles and next steps set out below, and sign up to add your name in support of the Vision. 
+Whether your role is in infrastructure management or innovation, please give us feedback on the definitions, principles and next steps set out below, and sign up to add your name in support of the Vision. 
 
 ## Addressing the condition crisis
 
