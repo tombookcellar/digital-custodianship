@@ -141,11 +141,11 @@ In order to realise our vision we need to facilitate sector wide change in four 
 
 2. **Better adoption pathways within asset owners.**
 
-    Identifying the right technology is one thing. Getting it through procurement, buying it, justifying it, and actually taking the decision to adopt is a genuinely painful process for owners to navigate — painful enough that, often, they simply don't.
+    Identifying the right technology is one thing. Getting it through procurement, buying it, justifying it, and integrating it into legacy systems is a genuinely painful process for owners to navigate — painful enough that, often, they simply don't.
 
 3. **Easier routes to market for innovators and technology providers.**
   
-    his is the flip side of adoption. Innovators and technology providers need pathways that let their technology become viable and sustainable — reaching the asset owners who need it, gaining traction, and getting the validation that lets them keep going, without which the tools that make this vision possible never reach the people who need them.
+    This is the flip side of adoption. Innovators and technology providers need pathways that let their technology become viable and sustainable — reaching the asset owners who need it, gaining traction, and getting the validation that lets them keep going, without which the tools that make this vision possible never reach the people who need them.
 
 4. **System-level constructs fit for how much data now exists.**
   
