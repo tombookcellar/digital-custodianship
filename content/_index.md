@@ -11,7 +11,7 @@ Our infrastructure is ageing. The gap between asset condition and the funding ne
 
 The standards and approaches we use to manage infrastructure were mostly defined at the advent of database systems in the latter decades of the 20th century, and we've got stuck with technologies and approaches that are twenty or more years old.
 
-Recent advances in technology means that previous limitations in our ability to capture, store and process data no longer apply, but in a world of drones, smartphones, remote sensing, quantum technologies and Aritificial Intelligence the sector has no common north star to work towards. 
+Recent advances in technology means that previous limitations in our ability to capture, store and process data no longer apply, but in a world of drones, smartphones, remote sensing, quantum technologies and artificial intelligence the sector has no common north star to work towards. 
 
 The Digital Custodianship Vision aims to align stakeholders towards a shared end-state for the role technology should play in managing infrastructure, and to accelerate innovation without constraining how it gets implemented and governed. 
 
@@ -45,7 +45,7 @@ We believe that by catalysing the adoption of emerging sensing and advanced comp
 
 Our vision for Digital Custodianship is:
 
-> ***A world where asset owners can fully articulate their risk position and they are empowered to act on it.***
+> ***A world where asset owners can fully articulate their risk position and are empowered to act on it.***
 
 Through Digital Custodianship, asset owners will develop a clear, quantified account of likelihood and consequence, held with enough confidence to justify a decision, communicated in language that lands with the people who control the budget.
 
