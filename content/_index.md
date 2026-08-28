@@ -23,7 +23,7 @@ Whether your role is in infrastructure management or innovation, please give us 
 
 In order to address the challenges of managing ageing infrastructure, we need a fundamental shift in how we think about data and planning, by moving away from monitoring condition to proactively managing risk.
 
-Our [paper on Asset Custodianship](/pdfs/asset-custodianship.pdf) set out the different operating modes that asset owners work to and the four risks that need to be controlled. A key finding is that there is no optimal solution to managing ageing infrastructure when the available resources are less than what is required to maintain condition.
+Our [paper on Asset Custodianship](/pdfs/asset-custodianship.pdf) set out the four risks that need to be controlled and the different operating modes that govern how asset owners take decisions. A key observation is that there is no optimal solution to managing ageing infrastructure when the available resources are less than what is required to maintain condition.
 
 Many owners of ageing infrastructure are in a situation where asset condition has deteriorated beyond acceptable levels and don't have the resources to restore condition, and are therefore in a form of *crisis mode*, where the only option is to do the best they can with what they have and wave the red flag to try and secure more resources.
 
